@@ -27,4 +27,11 @@ table{
 
 #heroText{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4em;
+    margin: 0;
+    text-transform: uppercase;
+    color: midnightblue;
+    -webkit-text-stroke-width:1px;
+    -webkit-text-stroke-color: yellow;
+    text-shadow: 2px 1px #292929;
 }
