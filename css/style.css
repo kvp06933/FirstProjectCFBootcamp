@@ -1,0 +1,30 @@
+body{
+    font-size: 1em;
+}
+
+table{
+    width: 90%;
+}
+
+.heroImage{
+    max-width: 200px;
+}
+
+.logo {
+    max-width: 400px;
+}
+.oddrow{
+    background-color: dimgrey;
+}
+.evenrow{
+    background-color: lightgray;
+}
+.tableHeader{
+    background-color: #212121;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+#heroText{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

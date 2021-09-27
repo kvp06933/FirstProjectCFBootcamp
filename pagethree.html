@@ -2,34 +2,37 @@
 <html>
     <header>
         <title>Marvel Fan Page</title>
+        <!--Custom Style Sheet-->
+        <link rel="stylesheet" href="/css/style.css">
     </header>
     <body>
+        <img class="logo" src="/img/CF_Logo_BO.png" alt="Coder Foundry Logo">
         <h1>Welcome to my marvel fan page</h1>
         <h2>What I know about Marvel</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi facere eligendi harum quidem perspiciatis illum praesentium voluptatem totam corporis unde!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fugiat omnis ipsa aperiam? Eum nam voluptatem veritatis exercitationem voluptatibus beatae tenetur praesentium incidunt eos atque, ut nostrum libero illum numquam?</p>
-        <h2>List of Heroes</h2>
+        <h2 id="heroText">List of Heroes</h2>
         <table>
-            <tr>
+            <tr class="tableHeader">
                 <th>Super Hero</th>
                 <th>Alter Ego</th>
                 <th>Powers</th>
                 <th>Picture</th>
             </tr>
-            <tr>
+            <tr class="oddrow">
                 <td>Spider-Man</td>
                 <td>Peter Parker</td>
                 <td>Climb Walls, Super Strength, Spidy Sense, Web Slinging</td>
                 <td>
-                    <img src="/img/spidey.jpeg" alt="Spider Man">
+                    <img src="/img/spidey.jpeg" alt="Spider Man" class="heroImage">
                 </td>
             </tr>
-            <tr>
+            <tr class="evenrow">
                 <td>Power Man</td>
                 <td>Luke Cage</td>
                 <td>Unbreakable Skin, Super Strength</td>
                 <td>
-                    <img src="/img/lukecage.png" alt="Power Man">
+                    <img src="/img/lukecage.png" alt="Power Man" class="heroImage">
                 </td>
             </tr>
         </table>
